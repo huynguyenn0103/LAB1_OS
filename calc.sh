@@ -8,7 +8,6 @@ fi
 
 while true; do
     read -p ">> " expression
-
     if [[ "$expression" == "EXIT" ]]; then
         break
     elif [[ "$expression" == "HIST" ]]; then
